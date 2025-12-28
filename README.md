@@ -1,5 +1,7 @@
 # ✍️ DigitSense – Handwritten Digit Recognizer
 
+🔗 **Live Demo:** https://digitsense-handwritten-digit-recognizer.streamlit.app/
+
 DigitSense is a real-time handwritten digit recognition system built using Convolutional Neural Networks (CNNs) and deployed as an interactive Streamlit web application.  
 It supports both freehand digit drawing and image upload, delivering accurate predictions using a CNN trained on the MNIST dataset.
 
@@ -57,11 +59,11 @@ DigitSense/
 ├── digits.keras
 ├── requirements.txt
 ├── screenshots/
-│ ├── prediction1.png
-│ ├── prediction2.png
-│ ├── prediction3.png
-│ ├── prediction4.png
-│ └── accuracy.png
+│   ├── prediction1.png
+│   ├── prediction2.png
+│   ├── prediction3.png
+│   ├── prediction4.png
+│   └── accuracy.png
 └── README.md
 
 ---
