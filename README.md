@@ -53,6 +53,7 @@ It supports both freehand digit drawing and image upload, delivering accurate pr
 
 ## 📂 Project Structure
 
+```text
 DigitSense/
 ├── app.py
 ├── train_model.py
@@ -65,6 +66,7 @@ DigitSense/
 │   ├── prediction4.png
 │   └── accuracy.png
 └── README.md
+```
 
 ---
 
