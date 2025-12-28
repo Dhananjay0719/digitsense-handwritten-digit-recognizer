@@ -10,7 +10,7 @@ It supports both freehand digit drawing and image upload, delivering accurate pr
 - Draw digits using mouse/trackpad (default mode)
 - Upload handwritten digit images
 - CNN-based digit classification
-- ~99.3% accuracy on MNIST test set
+- ~99.08% accuracy on MNIST test set
 - Real-time prediction with confidence score
 - Interactive Streamlit UI
 
@@ -19,7 +19,7 @@ It supports both freehand digit drawing and image upload, delivering accurate pr
 ## 🧠 Model Performance
 
 - Training Accuracy: ~99.5%
-- Validation Accuracy: ~99.3%
+- Validation Accuracy: ~99.08%
 - Test Accuracy: **99.31%**
 
 ### Test Accuracy Screenshot
@@ -69,8 +69,11 @@ DigitSense/
 ## ▶️ Run Locally
 
 conda create -n mnist-app python=3.10
+
 conda activate mnist-app
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 ---
